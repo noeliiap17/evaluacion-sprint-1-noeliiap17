@@ -1,0 +1,12 @@
+.header {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+.body {
+	padding-top: 100px;
+}
+.log {
+	width: 200px;
+	height: inherit;
+}
