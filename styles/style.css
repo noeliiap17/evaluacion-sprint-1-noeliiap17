@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 
 .body {
  padding-top: 100px;
@@ -60,11 +61,7 @@ li {
 	height: 1000px;
 	width: 100%;
 }
-h3 {
-	margin: 0%;
-	display: flex;
-	justify-content: center;
-}
+
 /*Footer*/
 .footer {
 	background-color: #252525;
