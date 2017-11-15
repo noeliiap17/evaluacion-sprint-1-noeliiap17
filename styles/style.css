@@ -10,6 +10,7 @@
  position: fixed;
  top: 0%;
  left: 0%;
+ width: 100%;
 }
 .box-container {
 	display: flex;
@@ -22,11 +23,22 @@ li {
 
 .menu {
 	display: flex;
+	width:auto;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%
+}
+.contact:hover {
+	color: #3CDBC0;
+	text-decoration: underline;
+}
+.list{
+	list-style:none;
+	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	align-items: center;
-	list-style:none
 }
+
 .log {
  width: 200px;
  }
