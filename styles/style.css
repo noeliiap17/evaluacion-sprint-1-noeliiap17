@@ -14,14 +14,19 @@
 }
 .box-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 100%;
 }
 li {
 	padding: 7px;
 }
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
 
-.menu {
+/*.menu {
 	display: flex;
 	width:auto;
 	align-items: center;
@@ -38,7 +43,7 @@ li {
 	flex-direction: row;
 	justify-content: flex-end;
 }
-
+*/
 .log {
  width: 200px;
  }
@@ -54,6 +59,11 @@ li {
 	background-size: 100% 100%;
 	height: 1000px;
 	width: 100%;
+}
+h3 {
+	margin: 0%;
+	display: flex;
+	justify-content: center;
 }
 /*Footer*/
 .footer {
